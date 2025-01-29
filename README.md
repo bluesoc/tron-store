@@ -82,17 +82,3 @@ Make sure you have Node.js and npm (or yarn) installed on your machine.
     # or
     yarn start
     ```
-
-### Project Structure
-```
-/tron-store
-├── /frontend          # Frontend folder
-│   ├── /src           # React components and application logic
-│   ├── /public        # Public files
-│   └── package.json   # Frontend dependencies
-│
-└── /backend           # Backend folder
-    ├── /src           # Server logic and routes
-    └── package.json   # Backend dependencies
-```
-
