@@ -32,12 +32,8 @@ export default function Header() {
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="flex h-16 items-center justify-between">
               <div className="flex items-center">
-                <div className="shrink-0">
-                  <img
-                    alt="TronStore"
-                    src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=500"
-                    className="size-8"
-                  />
+                <div className="shrink-0 font-montserrat text-4xl text-gray-200 font-bold">
+                  <p>TRØN</p>
                 </div>
               </div>
               <div className="hidden md:block">
