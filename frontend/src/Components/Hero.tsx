@@ -1,20 +1,5 @@
 import Store from '../assets/store.png'
 
-/*
-export default function Hero() {
-    return (<>
-        <div>
-            <div className="flex">
-                <div>Use E-Commerce to speed up your clients and infrastruture</div>
-                <img src={Store} alt='' />
-            </div>
-        </div>
-    </>)
-}
-*/
-
-
-
 export default function Hero() {
     return (
         <div className="mx-auto mt-8 flex flex-col md:flex-row items-center justify-center p-4 max-w-1xl lg:max-w-7xl lg:px-8">

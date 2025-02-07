@@ -19,10 +19,6 @@ const getProducts = async (): Promise<Product []> => {
 
 productRouter.get('/', async (req: Request, res: Response) => {
     const data = await getProducts();
-
-    // DEBUG
-    // console.log(data);
-
     res.json(data);
 });
 

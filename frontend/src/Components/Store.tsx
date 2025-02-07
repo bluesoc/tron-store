@@ -28,9 +28,6 @@ export default function Store() {
       try {
         const products = await getProducts();
         setItems(products);
-
-        // DEBUG
-        // console.log("ITEMS: ", products);
       } catch (error) {
         console.error('ERROR' + error);        
       }
