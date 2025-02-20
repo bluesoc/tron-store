@@ -41,20 +41,6 @@ export default function MockJSON(): Product[] {
           "thumbnail": "https://cdn.dummyjson.com/products/images/smartphones/iPhone%20X/thumbnail.png"
         },
         {
-          "title": "Samsung Galaxy S8",
-          "price": 499.99,
-          "discountPercentage": 8.84,
-          "rating": null,
-          "thumbnail": "https://cdn.dummyjson.com/products/images/smartphones/Samsung%20Galaxy%20S8/thumbnail.png"
-        },
-        {
-          "title": "iPhone 6",
-          "price": 299.99,
-          "discountPercentage": 19.64,
-          "rating": null,
-          "thumbnail": "https://cdn.dummyjson.com/products/images/smartphones/iPhone%206/thumbnail.png"
-        },
-        {
           "title": "Apple Airpods",
           "price": 129.99,
           "discountPercentage": 12.84,
@@ -69,25 +55,11 @@ export default function MockJSON(): Product[] {
           "thumbnail": "https://cdn.dummyjson.com/products/images/mobile-accessories/Selfie%20Stick%20Monopod/thumbnail.png"
         },
         {
-          "title": "Realme C35",
-          "price": 149.99,
-          "discountPercentage": 3.97,
-          "rating": null,
-          "thumbnail": "https://cdn.dummyjson.com/products/images/smartphones/Realme%20C35/thumbnail.png"
-        },
-        {
           "title": "Rolex Datejust",
           "price": 10999.99,
           "discountPercentage": 10.58,
           "rating": null,
           "thumbnail": "https://cdn.dummyjson.com/products/images/mens-watches/Rolex%20Datejust/thumbnail.png"
-        },
-        {
-          "title": "Samsung Galaxy S10",
-          "price": 699.99,
-          "discountPercentage": 1.12,
-          "rating": null,
-          "thumbnail": "https://cdn.dummyjson.com/products/images/smartphones/Samsung%20Galaxy%20S10/thumbnail.png"
         },
         {
           "title": "Watch Gold for Women",
