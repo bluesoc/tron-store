@@ -41,13 +41,7 @@ export default function Store() {
 
 
   return <>
-    <div className="flex justify-center mt-4 mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-        <h1 className="text-center text-3xl font-bold tracking-tight text-gray-900">
-            Explore Our Products
-        </h1>
-    </div>
-
-    <div className="mx-auto max-w-1xl px-4 pt-8 pb-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
+    <div className="py-4 lg:py-4 mx-auto max-w-1xl px-4 pb-8 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
       <div className="mt-1 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8">
         { getMock.map((product) => (
               <div key={product.title} className="group relative">
