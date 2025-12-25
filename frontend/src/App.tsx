@@ -3,8 +3,6 @@ import Footer from './Components/Footer';
 import Hero from './Components/Hero';
 import StoreSection from './Components/StoreSection';
 
-// <Store />
-
 function App() {
   return (
     <>
